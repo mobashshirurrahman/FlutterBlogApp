@@ -50,7 +50,7 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('🔥Blog'),
+        title: Text('🔥BlogApp'),
       ),
       body: blogList(),
       floatingActionButton: FloatingActionButton(
