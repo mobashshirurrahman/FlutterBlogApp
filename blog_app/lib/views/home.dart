@@ -50,16 +50,15 @@ class _HomeState extends State<Home> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('BloggApp'),
+        title: Text('🔥Blog'),
       ),
       body: blogList(),
       floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          Navigator.push(
-              context, MaterialPageRoute(builder: (context) => CreateBlog()));
-        },
-        child: Icon(Icons.add),
-      ),
+          onPressed: () {
+            Navigator.push(
+                context, MaterialPageRoute(builder: (context) => CreateBlog()));
+          },
+          child: Icon(Icons.upload_file)),
     );
   }
 }

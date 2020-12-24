@@ -30,7 +30,7 @@ class _CreateBlogState extends State<CreateBlog> {
       if (pickedFile != null) {
         _selectedImage = File(pickedFile.path);
       } else {
-        print('No image selected.');
+        print('No image selected!');
       }
     });
   }
@@ -89,7 +89,7 @@ class _CreateBlogState extends State<CreateBlog> {
               Navigator.pop(context);
             },
             child: Icon(Icons.close)),
-        title: Text("Create Blog"),
+        title: Text("Create Blog💌"),
         actions: [
           InkWell(
             onTap: () {
